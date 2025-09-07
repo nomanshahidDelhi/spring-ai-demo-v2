@@ -1,0 +1,9 @@
+spring:
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY} #create Open AI account and generate and use that key here
+      chat:
+        options:
+          model: gpt-4o-mini
+server:
+  port: 8080
