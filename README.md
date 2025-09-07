@@ -22,3 +22,8 @@ This is a sample Spring Boot project showing how to integrate **Spring AI 1.0.x*
 3. Click **Create new secret key**
 4. Copy the generated key (starts with `sk-...`) and paste in application.yml file
 
+**👉 Now you can start and hit:**
+http://localhost:8080/ai/ask?question=Explain+Microservices
+
+and get an AI-generated response in browser🎯.
+
