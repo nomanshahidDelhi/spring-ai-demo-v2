@@ -17,7 +17,8 @@ public class AiController {
 
     @GetMapping("/ask")
     public String ask(@RequestParam String question) {
-        ChatResponse response = chatModel.call(question);
-        return response.getResult().getOutput().getContent();
+        return chatModel.call(question);
+//        ChatResponse response = chatModel.call(question);
+//        return response.getResult().getOutput().getContent();
     }
 }
